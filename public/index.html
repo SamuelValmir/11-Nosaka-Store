@@ -27,29 +27,58 @@ ffd100
 <body>
     <header>
         <div class="header_container">
-            <div class="header_logo"><h2>Nosaka Store</h2></div>
+            <div class="header_logo">
+                <h2>Nosaka Store</h2>
+            </div>
             <div class="header_right">
                 <form>
                     <div class="search_key_container">
+                        <!-- Allow search for price, size, etc -->
                         <input class="search_key" type="text">
-                        <button class="header_search_container" type="submit">
+                        <button class="header_search_container pointer" type="submit">
                             <img class="header_search icon_svg" src="./assets/icons/search_black.svg" alt="search">
                         </button>
                     </div>
                 </form>
-                <a href="#<!-- /shopcart/list.html-->"><img class="header_shop icon_svg" src="assets/icons/shopping_cart_black_outlined.svg" alt="shopping cart"></img></a>
-                <img class="header_more icon_svg" src="./assets/icons/menu_black.svg" alt="more"></img>    
+                <a class=" header_right_item pointer" href="# <!-- /shopcart/list.html-->"><img
+                        class="header_shop icon_svg" src="assets/icons/shopping_cart_black_outlined.svg"
+                        alt="shopping cart"></img></a>
+                <img class=" header_right_item pointer" src="./assets/icons/favorite_border_black.svg" alt="favorites">
+                <img class="header_more icon_svg header_right_item pointer" src="./assets/icons/menu_black.svg"
+                    alt="more"></img>
+                <div class="user_account_container header_right_item">
+                    <img class="pointer" src="./assets/icons/account_circle_black.svg" alt="account">
+                    <div class="user_account_flyout">
+                        <div class="user_account_top">
+                            <div class="user_account_login button">Registrar</div>
+                            <div class="user_account_signin button">Entrar</div>
+                        </div>
+
+                        <ul class="user_account_menu">
+                            <li><a href="">Meus pedidos</a></li>
+                            <li><a href="">Lista de desejos</a></li>
+                            <li><a href="">Meus favoritos</a></li>
+                            <li><a href="">Meus cupons</a></li>
+                            <li><a href="">Central de mensagens</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <img class="color header_right_item" src="assets/icons/settings_brightness_black.svg"
+                    alt="brightness settings"></img>
             </div>
         </div>
     </header>
     <div class=""></div>
 
     <section id="content">
-        <div class="banner"></div>
+        <div class="banner_container">
+            <video class="banner_video" autoplay src="./assets/media/VIDEO BANNER 2 SEGUNDOS.mp4"></video>
+        </div>
 
         <div class="container">
             <div class="product_card_id_container">
-                <div class="product_image"></div>
+                <div class="product_image_container"> <img src="./assets/products/blusa ACDC frente.jfif" alt=""></div>
 
                 <img class="add_to_cart_image" src="./assets/icons/add to cart.png" alt="add to cart"
                     title="adicionar ao carrinho">
@@ -57,7 +86,7 @@ ffd100
                 <div class="description">
                     <span class="name">Iron maiden</span>
                     <span class="price">30R$</span>
-                    <span class="size"> M G</span>
+                    <span class="size">M G</span>
                     <span class="buy_button">Comprar</span>
                     <span class=""></span>
                 </div>
@@ -111,19 +140,24 @@ ffd100
     </section>
 
     <footer>
-        <div class="top">Entre em contato com a gente:
-            <a target="_blank" href="https://www.instagram.com/nosaka_store/"><img class="contact_icon"
-                    src="./assets/icons/instagram.png" alt="instagram"></a>
-            <a target="_blank" href="https://www.facebook.com/profile.php?id=100077527835831"><img class="contact_icon"
-                    src="./assets/icons/facebook.png" alt="facebook"></a>
-            <a target="_blank" href="https://github.com/SamuelValmir"><img class="contact_icon"
-                    src="./assets/icons/github.png" alt="github"></a>
-            <a target="_blank" href="mailto:nosakastoresupport@gmail.com"><img class="contact_icon"
-                    src="./assets/icons/gmail.png" alt="gmail"></a>
-            <a target="_blank" href="https://www.linkedin.com/in/samuel-valmir-8a92bb218/"><img class="contact_icon"
-                    src="./assets/icons/linkedin.png" alt="linkedin"></a>
-            <a target="_blank" href="https://api.whatsapp.com/send?phone=55%2088%209%209764%205660"><img
-                    class="contact_icon" src="./assets/icons/whatsapp.png" alt="whatsapp"></a>
+        <div class="top">
+            <div class="enterprice_contants"> Entre em contato com a gente:
+                <a target="_blank" href="https://www.instagram.com/nosaka_store/"><img class="contact_icon"
+                        src="./assets/icons/instagram.png" alt="instagram"></a>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100077527835831"><img
+                        class="contact_icon" src="./assets/icons/facebook.png" alt="facebook"></a>
+                <a target="_blank" href="mailto:nosakastoresupport@gmail.com"><img class="contact_icon"
+                        src="./assets/icons/gmail.png" alt="gmail"></a>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=55%2088%209%209764%205660"><img
+                        class="contact_icon" src="./assets/icons/whatsapp.png" alt="whatsapp"></a>
+            </div>
+
+            <div class="programmer_contants"> Entre em contato com o desenvolvedor:
+                <a target="_blank" href="https://github.com/SamuelValmir"><img class="contact_icon"
+                        src="./assets/icons/github.png" alt="github"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/samuel-valmir-8a92bb218/"><img class="contact_icon"
+                        src="./assets/icons/linkedin.png" alt="linkedin"></a>
+            </div>
         </div>
 
         <div class="footer_container">
